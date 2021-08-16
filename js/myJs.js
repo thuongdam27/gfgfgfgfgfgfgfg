@@ -38,7 +38,7 @@ $(document).ready(function () {
       imageUrl: "img/B6DE662B-E82E-4936-BFB0-5DE92BB6D2D1.jpeg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/46A8B724-466B-43AA-BC89-05A1A1D146FD.jpeg")',
+      background: '#fff url("img/iput-bg.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='huế hí'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='hí hí'>",
       background: '#fff url("img/46A8B724-466B-43AA-BC89-05A1A1D146FD.jpeg")',
       backdrop: `
                     rgba(0,0,123,0.4)
