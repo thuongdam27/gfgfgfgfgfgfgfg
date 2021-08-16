@@ -115,7 +115,7 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='hí hí'>",
-      background: '#fff url("img/46A8B724-466B-43AA-BC89-05A1A1D146FD.jpeg")',
+      background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/giphy2.gif")
@@ -133,7 +133,7 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: '#fff url("img/46A8B724-466B-43AA-BC89-05A1A1D146FD.jpeg")',
+          background: '#fff url("img/input-bg.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
