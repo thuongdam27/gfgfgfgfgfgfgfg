@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/duck.mp3");
+    var audio = new Audio("sound/_-6984318876418886939.mp3");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
@@ -60,7 +60,7 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    var audio = new Audio("sound/Swish1.mp3");
+    var audio = new Audio("sound/_-6984318876418886939.mp3");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
@@ -107,14 +107,14 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/tick.mp3");
+    var audio = new Audio("sound/_-6984318876418886939.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='huế hí'>",
       background: '#fff url("img/46A8B724-466B-43AA-BC89-05A1A1D146FD.jpeg")',
       backdrop: `
                     rgba(0,0,123,0.4)
