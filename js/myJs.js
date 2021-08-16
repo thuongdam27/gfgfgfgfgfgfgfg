@@ -1,16 +1,16 @@
 const textConfig = {
   text1: "He luu cậu!",
   text2: "Nhân dịp sinh nhât cậu Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Huế có ngu ngok hong?._.",
+  text3: "Huế có ngu hong?._.",
   text4: "Nếu cậu ko trả lời mà thoát ra là tớ dỗi nha =.=",
   text5: "Không hề nhé:>",
-  text6: " cóooo chứ ( kiệt sức rùi thì bấm vô đây) <3",
+  text6: " cóooo chứ ( mỏi tay rùi thì bấm vô đây) <3",
   text7: "Hôm nay là ngày gì nhở :vvvv",
   text8: "Gửi cho tớ <3",
-  text9: "Ngày sinh của bét fen tớ chứ ai:>",
+  text9: "Ngày sinh của bạn huế trình nè:>",
   text10: "Sinh nhật vui vẻ nhó ^^ Yêu cậu 300.000",
   text11:
-    " xíu qua tặng quà nhó :v Làm thiệp dán vô cái quà mệt muốn hụt loz nên nhớ đọc :v",
+    " nhanh ra Hà Nội lấy chồng giàu nha :v  sinh nhật zuii zẻ ^.^",
   text12: "Okii lunn <3",
 };
 
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.facebook.com/profile.php?id=100028401723420";
           },
         });
       }
