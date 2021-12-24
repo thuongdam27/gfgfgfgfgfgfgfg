@@ -35,10 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/video-1637819236.mp4",
+      imageUrl: "img/258893280_667001077821381_1542365872806815623_n.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/agggg.png")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -60,7 +60,7 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    var audio = new Audio("sound/_-6984318876418886939.mp3");
+    var audio = new Audio("sound/y2mate.com - Váy cưới cover Duyn203.mp3");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/_-6984318876418886939.mp3");
+    var audio = new Audio("sound/y2mate.com - Váy cưới cover Duyn203.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
@@ -115,7 +115,7 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='hí hí'>",
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/agggg.png")',
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/giphy2.gif")
@@ -133,7 +133,7 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: '#fff url("img/input-bg.jpeg")',
+          background: '#fff url("img/christmas-2937873_960_720.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
