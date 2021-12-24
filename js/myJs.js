@@ -47,7 +47,7 @@ $(document).ready(function () {
 
   // switch button position
   function switchButton() {
-    var audio = new Audio("sound/_-6984318876418886939.mp3");
+    var audio = new Audio("sound/y2mate.com - Váy cưới cover Duyn203.mp3");
     audio.play();
     var leftNo = $("#no").css("left");
     var topNO = $("#no").css("top");
