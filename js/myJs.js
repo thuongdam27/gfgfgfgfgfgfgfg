@@ -60,7 +60,7 @@ $(document).ready(function () {
   }
   // move random button póition
   function moveButton() {
-    var audio = new Audio("sound/y2mate.com - Váy cưới cover Duyn203.mp3");
+    var audio = new Audio("sound/y2mate.com - V3.mp3");
     audio.play();
     if (screen.width <= 600) {
       var x = Math.random() * 300;
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/y2mate.com - Váy cưới cover Duyn203.mp3");
+    var audio = new Audio("sound/y2mate.com - 3.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
