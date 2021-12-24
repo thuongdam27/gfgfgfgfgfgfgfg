@@ -35,7 +35,7 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/B6DE662B-E82E-4936-BFB0-5DE92BB6D2D1.jpeg",
+      imageUrl: "img/video-1637819236.mp4",
       imageWidth: 300,
       imageHeight: 300,
       background: '#fff url("img/iput-bg.jpg")',
